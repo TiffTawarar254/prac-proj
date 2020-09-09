@@ -32,10 +32,11 @@ body{
     vertical-align: middle;
     text-align:center;
     font-family:'Poppins',sans-serif;
-    font-size:1.2rem;
+    font-size:1rem;
 }
 input{
     text-transform: uppercase;
+    font-size:1rem;
     
 }
 #search:focus{
