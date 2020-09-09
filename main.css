@@ -13,7 +13,7 @@ body{
 .top-heading{
     color:black;
     font-family:'Racing Sans One',cursive;
-    font-size:2.2rem;
+    font-size:1rem;
     margin-top:2rem;
 }
 .other-heading{
@@ -35,6 +35,7 @@ body{
 }
 input{
     text-transform: uppercase;
+    margin:70px 20px 0 20px;
 }
 #search:focus{
     transform:scale(1.1);
@@ -57,3 +58,8 @@ input{
     font-weight:bold;
     text-transform:uppercase;
 }
+@media screen and (max-width: 480px) {
+    #search {
+        width:230px;
+    }
+  }
